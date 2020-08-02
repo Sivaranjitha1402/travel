@@ -1,0 +1,51 @@
+.Quicklink {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  width: 245px;
+  background-color: #ffffff;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-radius: 10px;
+  margin: 0px 0px 20px 10px;
+  height: 70px;
+}
+
+.Quicklink img {
+  border-radius: 6px;
+  height: 70px;
+  width: 70px;
+}
+
+.Quicklink .contains {
+  padding: 9px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Quicklink .contains .title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Quicklink .contains .description {
+  font-size: 12px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=QuickLink.css.map */

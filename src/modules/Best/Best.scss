@@ -1,0 +1,61 @@
+@import '../../variable.scss';
+
+.best{
+    @include flexCenter;
+    flex-direction: column;
+    margin-bottom: 60px;
+    &-heading{
+        @include headings;
+    }
+    &-subheading{
+        @include subheading;
+        opacity: 0.6;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+.tcontent{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    .text-content{
+        max-width: 100%;
+        min-width: 95%;
+        max-height: 600px;
+        min-height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(0deg,rgba(0,0,0,0.7),transparent),url("https://a0.muscache.com/im/pictures/983064a1-3271-4fc0-9978-20f51bd9e6de.jpg");
+        justify-content: flex-end;
+        display: flex;
+        color: #ffffff;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .title{
+            @include titles
+        }
+        .text-info{
+            padding-top: 10px;
+            @include description
+        }
+    }
+
+}
+
+// @media screen and (max-width:1330px)and (min-width:100px){
+//     .text-content
+//     {    
+//     width: 100%;
+//     height: 300px;
+//     } 
+// }
+// @media screen and(max-width:100vw) and (min-width:1330px){
+//     .text-content
+//     {    
+//     width: 95%;
+//     height: 450px;
+//     }
+// }

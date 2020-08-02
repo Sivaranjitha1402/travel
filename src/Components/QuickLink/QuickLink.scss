@@ -1,0 +1,37 @@
+@import '../../variable.scss';
+.Quicklink {
+    @include flexCenter;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin: 10px 11px;
+    height: 80px;
+    .img {
+        flex-shrink: 0;
+        height: 100%;
+        position: relative;
+        width: 70px;
+        img {
+            border-radius: 5px;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            width: 100%;
+        }
+    }
+    .contains {
+        padding: 9px;
+        width: 150px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        .title {
+            @include title
+        }
+        .description {
+            @include description
+        }
+    }
+}

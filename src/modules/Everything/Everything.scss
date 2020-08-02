@@ -1,0 +1,18 @@
+@import '../../variable.scss';
+
+.everything{
+    @include flexCenter;
+    flex-direction: column;
+    padding-bottom: 30px;
+    &-title{
+        @include headings
+    }
+    &-description{
+        @include detaildescription
+    }
+}
+@media screen and (max-width:400px) and(min-width:100px){
+    .everything{
+        padding:0px 20px;
+    }
+}

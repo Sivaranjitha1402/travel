@@ -1,0 +1,26 @@
+@import '../../variable.scss';
+
+.summary{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    img{
+        width: 36px;
+        height: 36px;
+    }
+    &-container{
+        width: 120px;
+        .title{
+            @include title
+        }
+        .description{
+            @include description
+        }
+    }
+}
+// @media screen and (min-width:420px)and(max-width:700px){
+//     .summary{
+//         width: 100px;
+//    }
+// }

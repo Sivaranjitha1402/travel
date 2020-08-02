@@ -1,0 +1,101 @@
+@import '../../variable.scss';
+.IconHolder {
+    @include flexCenter;
+    padding: 50px 0px 20px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    .four-icons {
+        display: -webkit-box;
+        display: flex;
+        img {
+            height: 58px;
+            width: 58px;
+            padding: 6px;
+        }
+    }
+    .title {
+        @include headings;
+        padding-top: unset;
+        // line-height: 1.7;
+        padding: 0px 10px 10px 10px;
+    }
+    .description {
+        max-width: 480px;
+        padding: 0px 20px;
+        text-align: center;
+        @include detaildescription;
+    }
+}
+
+.titles {
+    @include titles
+}
+
+.expert {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    .reviews {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        .images {
+            img {
+                border-radius: 50%;
+            }
+        }
+        .text-info {
+            padding-left: 10px;
+            @include detaildescription;
+        }
+    }
+    .questions {
+        display: -webkit-box;
+        display: flex;
+        margin-left: -20px;
+        flex-wrap: wrap;
+        width: 100%;
+        list-style-type: none;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        li {
+            font-size: 15px;
+            width: 48%;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+         ::before {
+            background-color: #159e87;
+            border-radius: 10px;
+            content: " ";
+            height: 10px;
+            position: relative;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            width: 10px;
+            display: block;
+            left: -20px;
+            top: 20px;
+        }
+    }
+}
+
+.details {
+    margin-top: -60px;
+}
+
+.ask-btn {
+    @include flexCenter;
+    // padding-bottom: 40px;
+    p {
+        text-align: center;
+        border-radius: 10px;
+        padding: 15px;
+        box-sizing: border-box;
+        width: 270px;
+        color: #fff;
+        background-color: #0073e6;
+    }
+}

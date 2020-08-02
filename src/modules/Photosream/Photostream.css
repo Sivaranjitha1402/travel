@@ -1,0 +1,189 @@
+.photostream {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photostream .title {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.photostream .description {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.4;
+  opacity: 0.6;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.photostream .pic {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.photostream .pic img {
+  height: 100%;
+  width: 100%;
+}
+
+.photostream .pic * {
+  margin-bottom: -2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.photostream .pic .up {
+  padding-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photostream .pic .up-left {
+  padding-right: 5px;
+}
+
+.photostream .pic .up-left-left {
+  padding-right: 5px;
+}
+
+.photostream .pic .up-left-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photostream .pic .up-left-right-up {
+  padding-bottom: 5px;
+}
+
+.photostream .pic .down {
+  margin: 0;
+  padding-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photostream .pic .down-left {
+  padding-right: 5px;
+  padding-top: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photostream .pic .down-left-up {
+  padding-bottom: 8px;
+  height: 65%;
+}
+
+.photostream .pic .down-left-down {
+  height: 34.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photostream .pic .down-left-down-left {
+  padding-right: 5px;
+  width: 50%;
+}
+
+.photostream .pic .down-left-down-right {
+  width: 50%;
+}
+
+.photostream .pic .down-right {
+  padding-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photostream .pic .down-right-left {
+  padding-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photostream .pic .down-right-left-up {
+  padding-bottom: 8px;
+  height: 59%;
+}
+
+.photostream .pic .down-right-left-down {
+  height: 40.5%;
+}
+
+.photostream .pic .down-right-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photostream .pic .down-right-right-up {
+  height: 27.5%;
+}
+
+.photostream .pic .down-right-right-down {
+  height: 27.5%;
+}
+
+.photostream .pic .down-right-right-middle {
+  padding: 7px 0px 7px 0px;
+  height: 45%;
+}
+
+@media screen and (max-width: 600px) {
+  .pic .up-left {
+    display: none;
+  }
+  .pic .down-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 100vw) and (min-width: 600px) {
+  .up-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=Photostream.css.map */

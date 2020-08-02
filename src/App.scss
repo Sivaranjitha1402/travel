@@ -1,0 +1,18 @@
+@import './variable.scss';
+body{
+    @include no-scroll-bar;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    order: 1;
+    background-color: inherit;
+}
+.mains{
+    order:2;
+}
+.fits{
+    object-fit: cover;
+}

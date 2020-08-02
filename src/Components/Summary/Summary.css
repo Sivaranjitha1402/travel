@@ -1,0 +1,32 @@
+.summary {
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.summary img {
+  width: 36px;
+  height: 36px;
+}
+
+.summary-container {
+  width: 120px;
+}
+
+.summary-container .title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.summary-container .description {
+  font-size: 12px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=Summary.css.map */

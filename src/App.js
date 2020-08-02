@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Headers from './modules/Headers/Headers';
+import Main from './modules/Main/Main';
+import Top from './modules/Top/Top';
+import Best from './modules/Best/Best';
+import IconHolder from './modules/IconHolder/IconHolder';
+import Photostream from './modules/Photosream/Photostream';
+import Everything from './modules/Everything/Everything';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        //  <div className="tcontent">
+        //     <img src="https://a0.muscache.com/im/pictures/983064a1-3271-4fc0-9978-20f51bd9e6de.jpg"/>
+        //     <div className="text-content">
+        //       <div className="title">Best of tripadvisor</div>
+        //       <span className="text-info">Top rated awarded stays by Tripadvisor</span>
+        //     </div>
+        //   </div> 
+    <div className="App" >
+         <Headers/>
+      <div className="mains">
+      <Main/>
+      <Top/>
+      <Best/>
+      <IconHolder/>
+      <Photostream/>
+      <Everything/>
+      </div> 
+
     </div>
   );
 }

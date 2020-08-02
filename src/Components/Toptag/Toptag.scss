@@ -1,0 +1,47 @@
+@import '../../variable.scss';
+.toptag{
+    // width:300px;
+    // height: 150px;
+    flex-shrink: 0;
+      flex-grow: 0;
+      @media screen and (max-width: 639px) {
+        // margin: 22px auto 22px auto;
+        max-width: 420px;
+        width: 100%;
+      }
+      @media screen and (min-width: 640px) and (max-width: 767px) {
+        // margin: 27.5px 0;
+        padding-right: 22px;
+        width: 50%;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        // margin: 27.5px 0;
+        padding-right: 24px;
+        width: 33.33333%;
+      }
+      @media screen and (min-width: 1024px) {
+        // margin: 27.5px 0;
+        padding-right: 36px;
+        width: 25%;
+      }
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    .topTitle{
+        @include topTitle
+    }
+    .topDescription{
+        @include topDescription
+    }
+    .manytag{
+        display: flex;
+        .tags{
+            margin-right: 20px;
+            @include tags;
+        }
+    }
+    
+}

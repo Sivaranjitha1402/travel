@@ -1,0 +1,179 @@
+@import '../../variable.scss';
+.photostream {
+    @include flexCenter;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    .title {
+        @include headings;
+    }
+    .description {
+        @include detaildescription;
+        opacity: 0.6;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .pic {
+        height: 1200px;
+        img {
+            height: 100%;
+            width: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+        padding: 30px;
+        box-sizing: border-box;
+        // *{
+        //     margin-bottom: -2px;
+        //     box-sizing: border-box;
+        // }
+        .up {
+            height: 40%;
+            // padding-bottom: $photo;
+            display: -webkit-box;
+            display: flex;
+            &-left {
+                width: 50%;
+                padding-right: $photo;
+                &-left {
+                    width: 50%;
+                    padding-right: $photo;
+                }
+                &-right {
+                    width: 50%;
+                    height: 100%;
+                    &-up {
+                        height: 50%;
+                        padding-bottom: $photo;
+                    }
+                    &-down {
+                        height: 50%;
+                    }
+                    display: -webkit-box;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                }
+            }
+            // &-right{
+            //     width: 50%;
+            // }
+        }
+        .down {
+            height: 60%;
+            width: 100%;
+            margin: 0;
+            padding-bottom: $photo;
+            display: -webkit-box;
+            display: flex;
+            &-left {
+                width: 50%;
+                padding-right: $photo;
+                padding-top: $photo;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                flex-direction: column;
+                &-up {
+                    padding-bottom: $photo;
+                    height: 65%;
+                }
+                &-down {
+                    &-left {
+                        padding-right: $photo;
+                        width: 50%;
+                    }
+                    &-right {
+                        width: 50%;
+                    }
+                    height: 34.5%;
+                    display:-webkit-box;
+                    display:flex;
+                }
+            }
+            &-right {
+                height: 100%;
+                padding-top: $photo;
+                display: -webkit-box;
+                display: flex;
+                &-left {
+                    width: 50%;
+                    padding-right: $photo;
+                    &-up {
+                        padding-bottom: $photo;
+                        height: 59%;
+                    }
+                    &-down {
+                        height: 40.5%;
+                    }
+                    display: -webkit-box;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                }
+                &-right {
+                    width: 50%;
+                    height: 100%;
+                    &-up {
+                        height: 30%;
+                    }
+                    &-down {
+                        height: 29.5%;
+                    }
+                    &-middle {
+                        padding: $photo 0px $photo 0px;
+                        height: 40%;
+                    }
+                    display: -webkit-box;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:600px) {
+    .pic {
+        .up {
+            &-left {
+                display: none;
+            }
+            &-right {
+                width: 100%;
+            }
+        }
+        .down {
+            &-left {
+                display: none;
+            }
+            &-right {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:100vw)and (min-width:600px) {
+    .up {
+        &-left {
+            display: -webkit-box;
+            display: flex;
+        }
+        &-right {
+            width: 50%;
+        }
+    }
+    .down {
+        &-left {
+            display: -webkit-box;
+            display: flex;
+        }
+        &-right {
+            width: 50%;
+        }
+    }
+}

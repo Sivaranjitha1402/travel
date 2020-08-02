@@ -1,0 +1,65 @@
+@import '../../variable.scss';
+.detail {
+    box-sizing: border-box;
+    &-main {
+        padding-bottom: 20px;
+        &-title {
+            @include titles
+        }
+        &-description {
+            @include detaildescription
+        }
+    }
+    &-container {
+        display: flex;
+        width: 100%;
+        scroll-snap-type: x mandatory;
+        justify-content: space-between;
+        overflow: scroll;
+        @include no-scroll-bar;
+        .spacing {
+            @media screen and (max-width: 100vw) and (min-width: 1330px) {
+                padding: unset;
+            }
+            @media screen and (max-width:1330px) and (min-width:100px) {
+                padding: 0px 10px;
+            }
+        }
+    }
+    &-more {
+        padding: 20px 0px;
+        @include topTitle;
+        &::after {
+            margin-left: 4px;
+            margin-top: -18px;
+            content: '\2192';
+            position: absolute;
+            font-size: 35px;
+        }
+    }
+}
+
+@media screen and (max-width:1330px) and (min-width:100px) {
+    .detail {
+        padding: 0px;
+        &-main {
+            padding-left: 20px;
+        }
+        &-more {
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and(max-width:100vw) and (min-width:1330px) {
+    .detail {
+        padding: 30px 20px 30px 30px;
+        box-sizing: border-box;
+        &-main {
+            padding-left: 0px;
+        }
+        &-more {
+            padding-left: 0px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.toptag {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 639px) {
+  .toptag {
+    max-width: 420px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .toptag {
+    padding-right: 22px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .toptag {
+    padding-right: 24px;
+    width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .toptag {
+    padding-right: 36px;
+    width: 25%;
+  }
+}
+
+.toptag .topTitle {
+  color: #007aff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.toptag .topDescription {
+  color: #262627;
+  font-size: 12px;
+}
+
+.toptag .manytag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toptag .manytag .tags {
+  margin-right: 20px;
+  color: #007aff;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  background: #f0f5fa;
+  padding: 5px 10px;
+  width: 100px;
+  text-align: center;
+}
+/*# sourceMappingURL=Toptag.css.map */

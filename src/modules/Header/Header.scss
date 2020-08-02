@@ -1,0 +1,31 @@
+@import "../../variable.scss";
+.heads{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    .home-header{
+        background-color: $headerbackground;
+        display: grid;
+        padding: 20px;
+        grid-template-columns:10% 30% 60%;  
+        .head-nav{
+            // display: flex;
+            width: 100%;
+            display: none;
+            justify-content: space-between;
+        }
+        .head-end{
+           display: flex;
+           justify-content: flex-end;
+           width: 95%;
+        .head-search{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+        }
+        }
+    }
+}
+
+
+
