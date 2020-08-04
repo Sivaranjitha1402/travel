@@ -30,6 +30,7 @@
 }
 
 .tags-flex .backtag {
+  color: #000;
   width: 262px;
   font-size: 15px;
   opacity: 0.6;

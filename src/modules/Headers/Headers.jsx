@@ -6,16 +6,18 @@ function Headers() {
 
         <div className="heads">
             <div className="img">
+                <a href="/">
                 <img src={Logo} alt="images" />
+                </a>
             </div>
             <div className="head-links">
 
                 <div className="wrapper">
 
-                    <a className="link">Travel</a>
-                    <a className="link">Nutrition</a>
-                    <a className="link">Products</a>
-                    <a className="link">About Better</a>
+                    <a className="link" href="/places">Stay</a>
+                    <a className="link" href="/flights">Travel</a>
+                    <a className="link" href="/places#top">Neighbourhoods</a>
+                    <a className="link" href="/places#suggest">Easy Go</a>
                 </div>
                 <div className="city">
                     <div className="search">

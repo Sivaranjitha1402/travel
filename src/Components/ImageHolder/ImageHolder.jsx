@@ -1,14 +1,16 @@
 import React from 'react'
 import './ImageHolder.scss'
+import { Rate } from 'antd';
+import 'antd/dist/antd.css';
 function ImageHolder(props) {
   
  var price=props.contain.description.split(" ");
- var num = new Number(price[1]).toLocaleString('en-US',{
+ var num = price[1]==="reviews" ? price[0]:new Number(price[1]).toLocaleString('en-US',{
     style: "currency",
     currency: price[0],
     minimumFractionDigits: 0 
   });
-  var des=num.concat(price[2])
+  var des=price[1]==="reviews"?props.contain.description:num.concat(price[2])
         return (
            
             <div className="imageholder">
@@ -21,6 +23,10 @@ function ImageHolder(props) {
                     </div>
                 </a>
                 <div className="title">{props.contain.title}</div>
+                <div>
+                <Rate allowHalf defaultValue={props.contain.value} />
+
+                </div>
                 <div className="description">{des}</div>
             </div>
             

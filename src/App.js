@@ -21,8 +21,10 @@ function App() {
          <Headers/>
       <div className="mains">
       <Main/>
-      <Top/>
       <Best/>
+     <div>
+        <Top/>
+     </div>
       <IconHolder/>
       <Photostream/>
       <Everything/>

@@ -23,7 +23,7 @@ class Everything extends Component {
         return (
            <div>
                 <div className="everything">
-                    <div className="everything-title">Everything Wayanad</div>
+                    <div className="everything-title">Easy Go</div>
                     <div className="everything-description">Select the tags that you find interesting to get suggestions</div>
                 </div>
                 <div className="everytag">

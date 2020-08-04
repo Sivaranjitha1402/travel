@@ -1,33 +1,46 @@
 .Quicklink {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   width: 100%;
-  width: 245px;
+  max-width: 250px;
+  min-width: 250px;
   background-color: #ffffff;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-radius: 10px;
-  margin: 0px 0px 20px 10px;
-  height: 70px;
+  border-radius: 5px;
+  margin: 10px 11px;
+  height: 80px;
 }
 
-.Quicklink img {
-  border-radius: 6px;
-  height: 70px;
+.Quicklink .img {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 100%;
+  position: relative;
   width: 70px;
+}
+
+.Quicklink .img img {
+  border-radius: 5px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  width: 100%;
 }
 
 .Quicklink .contains {
   padding: 9px;
   width: 150px;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
