@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'antd/dist/antd.css';
 // import Headers from "./modules/Headers/Headers"
 import * as serviceWorker from './serviceWorker';
 import Landing from './Landing';

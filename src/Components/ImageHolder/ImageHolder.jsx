@@ -1,7 +1,6 @@
 import React from 'react'
 import './ImageHolder.scss'
 import { Rate } from 'antd';
-import 'antd/dist/antd.css';
 function ImageHolder(props) {
   
  var price=props.contain.description.split(" ");

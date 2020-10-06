@@ -25,7 +25,7 @@ function App() {
      <div>
         <Top/>
      </div>
-      <IconHolder/>
+      {/* <IconHolder/> */}
       <Photostream/>
       <Everything/>
       </div> 

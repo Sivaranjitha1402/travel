@@ -5,45 +5,26 @@ function Top () {
     const [tops, setTops] = useState(
         [
             {
-                title:"Meppadi (14)",
-                description:"Most scenic village of Wayanad. Nearby: Chembra Peak, Karpuzha dam, Meenmutty falls.",
-                tag:["Forests","Mountain"]
+                title:"Comedy (14)",
+                description:"Find your favourite comedy shows",
+                tag:["Stand ups","Cuts"]
             },
             {
-                title:"Vythiri (11)",
-                description:"Hill station town. Nearby: Banasura dam, Pookote lake.",
-                tag:["Forests","Mountain"]
+                title:"Thriller (11)",
+                description:"Have a nail bitting scenerio",
+                tag:["Detective","Ghosts"]
             },
             {
-                title:"Kalpetta (7)",
-                description:"Best base station for sightseeing. Mar-May are a popular time for sightseeing.",
-                tag:["Sightseeing"]
+                title:"Romance (7)",
+                description:"Have a good time with your loved one",
+                tag:["Tender"]
             },
             {
-                title:"Sultan Bathery (7)",
-                description:"Great roads from Bangalore & closest as well. Nearby: Banasura dam & Edakkal caves.",
-                tag:["Paddyfields","Sighseeing"]
+                title:"Kids (7)",
+                description:"Give kids a pleasant watch",
+                tag:["Animation","Movie"]
             },
-            {
-                title:"Ambalavayal (6)",
-                description:'A village close to Karapuzha dam, and hosts the "Wayanad Heritage Museum"',
-                tag:["Mountain","Waterfront"]
-            },
-            {
-                title:"Manandhavady (4)",
-                description:"Closest town to the Kabini river. Nearby: Tholpetty Wild Life Sanctuary.",
-                tag:["Kabini"]
-            },
-            {
-                title:"Tariyod (4)",
-                description:"Great resorts overlooking the Banasura hills & reservoir.",
-                tag:["Mountain","Waterfront"]
-            },
-            {
-                title:"Meenangadi (3)",
-                description:"Serene village in Wayanad situated between Kalpetta and Sulthan Bathery.",
-                tag:["Mountain"]
-            }
+            
 
 
         ]);

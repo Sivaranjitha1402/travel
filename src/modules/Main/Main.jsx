@@ -7,7 +7,7 @@ import QuickLink from '../../Components/QuickLink/QuickLink'
         return (
             <div className="main">
                 <div className="Heading">
-                    Wayanad
+                    Relax Out
                 </div>
                 <div className="summaries">
                     <Summary image="https://betterclub.codes/images/bd1258b659004f4f362c552aeaa6e20d.svg" title="15°C" description="Good for next 2 weeks"/>
@@ -17,13 +17,13 @@ import QuickLink from '../../Components/QuickLink/QuickLink'
                 <div className="quicklink">
                     <div className="quicklink-container">
                         <div className="quicks">
-                        <QuickLink image="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/04/windflower-resort.jpg" title="All stays" description="Stays for quick getaways" />
+                        <QuickLink image="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/04/windflower-resort.jpg" title="All Bookings" description="Book your Favourite shows" />
                         </div>
                         <div className="quicks">
-                        <QuickLink image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMqDyRnrp74aSvLIxbidsn-4xjfEl1cNnEgM7azKg7gpLSk2bOnw" title="Ask question" description="Get help from experts"/>
+                        <QuickLink image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMqDyRnrp74aSvLIxbidsn-4xjfEl1cNnEgM7azKg7gpLSk2bOnw" title="Ask question" description="We are here to help you"/>
                         </div>
                         <div className="quicks">
-                        <QuickLink image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRda49g1I1CndiVC9arJrLoIY4_AMXRL6sLu-HN3-shafY23j3FJg" title="Travel products" description="For all travel needs"/>
+                        <QuickLink image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRda49g1I1CndiVC9arJrLoIY4_AMXRL6sLu-HN3-shafY23j3FJg" title="Top Hits" description="For all type of people"/>
                         </div>
                     </div>
                  

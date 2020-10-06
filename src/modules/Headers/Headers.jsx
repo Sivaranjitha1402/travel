@@ -13,10 +13,9 @@ function Headers() {
             <div className="head-links">
 
                 <div className="wrapper">
-
-                    <a className="link" href="/places">Stay</a>
-                    <a className="link" href="/flights">Travel</a>
-                    <a className="link" href="/places#top">Neighbourhoods</a>
+                    <a className="link" href="/book">Bookings</a>
+                    <a className="link" href="/kids">Kids</a>
+                    <a className="link" href="/places#top">Recent Hits</a>
                     <a className="link" href="/places#suggest">Easy Go</a>
                 </div>
                 <div className="city">
