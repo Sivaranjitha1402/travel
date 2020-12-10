@@ -16,7 +16,7 @@ function Headers() {
                     <a className="link" href="/book">Bookings</a>
                     <a className="link" href="/kids">Kids</a>
                     <a className="link" href="/places#top">Recent Hits</a>
-                    <a className="link" href="/places#suggest">Easy Go</a>
+                    <a className="link" href="/places#suggest">Hotel Suggestion</a>
                 </div>
                 <div className="city">
                     <div className="search">
